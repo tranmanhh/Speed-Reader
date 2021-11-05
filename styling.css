@@ -1,0 +1,41 @@
+html, body{
+    height: 100%;
+}
+
+#home{
+    background: url("bg-img.jpg") center center no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    font-family: Lobster, cursive;
+}
+
+.header h1{
+    font-size: 40px;
+}
+.header p{
+    font-size: 20px;
+}
+
+#error{
+    background-color: coral;
+    width: 50%;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+#textDisplay{
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5% 0;
+}
+
+/* Hide the number input */
+.full-width-slider input {
+    display: none !important;
+}
+
+.full-width-slider .ui-slider-track{
+    margin-left: 15px;
+}
